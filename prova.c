@@ -61,3 +61,13 @@ void loop() {
      }
     }
 }
+
+
+------------------------------------------------
+  
+ import time
+from serial import Serial
+
+canalSerial = Serial('dev/ttyACM0', 9600)
+canalSerial.read()
+print (canalSerial)
